@@ -68,6 +68,8 @@ routes.get('/profile', ProfileController.index);
 routes.post('/sessions', SessionController.create);
 routes.post('/ongs', OngController.create);
 routes.post('/incidents', IncidentController.create);
+
+//Delete
 routes.delete('/incidents/:id', IncidentController.delete);
 
 module.exports = routes;
